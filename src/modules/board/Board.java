@@ -36,7 +36,7 @@ public class Board
 			case 4: break;
 			case 6: break;
 			default:throw new IllegalArgumentException(String.format(
-						"Invalid number of players (given %d, expected of {0:4, 6}.", playerNum));
+						"Invalid number of players (given %d, expected of {0, 2, 4, 6}.", playerNum));
 		}
 	}
 	
